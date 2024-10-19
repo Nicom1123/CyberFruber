@@ -3,93 +3,117 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="225dp"
-        android:layout_marginTop="1dp"
-        android:background="#DE6B6B"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Podras ingresar el codigo en: 00:55"
-            android:textColorLink="#FA0000"
-            android:translationX="80dp" />
-
-        <Button
-            android:id="@+id/button_ingresar"
-            android:layout_width="320dp"
-            android:layout_height="65dp"
-            android:backgroundTint="#000000"
-            android:text="Ingresar"
-            android:translationX="40dp"
-            android:translationY="70dp" />
-
-    </LinearLayout>
+    android:layout_height="match_parent"
+    android:background="#DD6B6B">
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="502dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_width="413dp"
+        android:layout_height="732dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="1dp"
         android:background="#DE6B6B"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView11"
             android:layout_width="wrap_content"
-            android:layout_height="102dp"
-            android:translationX="100dp"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="30dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="73dp"
+            android:layout_height="67dp"
+            android:translationX="170dp"
+            android:translationY="-10dp"
             app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="274dp"
+            android:layout_height="229dp"
+            android:translationX="70dp"
+            android:translationY="20dp"
+            app:srcCompat="@drawable/twofa_icon" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_sans_extra_bold"
             android:text="2FA"
-            android:translationX="190dp"
-            android:translationY="240dp" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:translationX="185dp"
+            android:translationY="40dp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_sans_regular"
             android:text="Ingresa el codigo que aparece en tu autenticador"
+            android:textColor="#FFFFFF"
             android:translationX="50dp"
-            android:translationY="260dp" />
+            android:translationY="50dp" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="59dp"
-            android:translationX="30dp"
-            android:translationY="280dp" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="#FFECEC"
+            android:translationX="60dp"
+            android:translationY="70dp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="59dp"
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="#FFECEC"
             android:translationX="140dp"
-            android:translationY="220dp" />
+            android:translationY="-10dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="#FFECEC"
+            android:translationX="220dp"
+            android:translationY="-90dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="#FFECEC"
+            android:translationX="300dp"
+            android:translationY="-170dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_sans_extra_bold"
+            android:text="Podrás reenviar el codigo en: 00:57"
+            android:textColor="#FFFFFF"
+            android:translationX="76dp"
+            android:translationY="-150dp" />
 
         <Button
-            android:id="@+id/button6"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:id="@+id/button2"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#000000"
+            android:text="Ingresar"
+            android:translationX="80dp"
+            android:translationY="-120dp" />
 
     </LinearLayout>
 

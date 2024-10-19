@@ -44,6 +44,7 @@
         android:background="#DE6B6B"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -69,6 +70,27 @@
             android:text="Ingresa el codigo que aparece en tu autenticador"
             android:translationX="50dp"
             android:translationY="260dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:translationX="30dp"
+            android:translationY="280dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:translationX="140dp"
+            android:translationY="220dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

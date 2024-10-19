@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cyberfruve.MainActivity">
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="346dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="384dp">
+
+        <EditText
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Compra tu mercado sin ir a la esquina." />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miles de productos y precios a la palma de tu mano, todo sin tener que salir de casa." />
+
+        <Button
+            android:id="@+id/but_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EDE9E9"
+            android:text="Crear Cuenta"
+            app:rippleColor="#100F0F"
+            app:strokeColor="#1A1818" />
+
+        <LinearLayout
+            android:id="@+id/15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_crear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F0C0C"
+                android:text="Iniciar Seción" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="58dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="FRUVER"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="28dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

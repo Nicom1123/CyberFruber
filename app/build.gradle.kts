@@ -6,6 +6,10 @@ android {
     namespace = "com.example.cyberfruve"
     compileSdk = 34
 
+    viewBinding{
+        enable=true
+    }
+
     defaultConfig {
         applicationId = "com.example.cyberfruve"
         minSdk = 26

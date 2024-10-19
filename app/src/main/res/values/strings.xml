@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">CyberFruve</string>
+    <string name="app_name">CyberFruver</string>
+    <string name="sub4">Busca mediante categorias</string>
+    <string name="bton">BUSCAR</string>
+    <string name="bton2">SALIR</string>
+    <string name="bton3">CARRITO</string>
+    <string name="bton4">ORDENAR</string>
+    <string name="Titulo">CyberFruver</string>
+    <string name="Sub">Bienvenido</string>
+    <string name="sub2">Descuentos en carne</string>
+    <string name="sub3">Para el Hogar</string>
+    <string name="box1">Escoger</string>
+    <string name="box2">Escoger</string>
+    <string name="box3">Escoger</string>
+    <string name="box4">Escoger</string>
+
+
+
+    <string name="name">Escriba su pedido en CyberFruver</string>
 </resources>

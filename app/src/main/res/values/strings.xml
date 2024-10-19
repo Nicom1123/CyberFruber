@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">CyberFruver</string>
     <string name="sub4">Busca mediante categorias</string>
+    <string name="pro1">Carnes</string>
+    <string name="pro2">Vegetales</string>
+    <string name="pro3">Pescado</string>
     <string name="bton">BUSCAR</string>
     <string name="bton2">SALIR</string>
     <string name="bton3">CARRITO</string>

@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -60,52 +60,229 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="78dp"
-            android:layout_height="69dp"
-            android:translationX="20dp"
-            android:translationY="60dp"
-            app:srcCompat="@drawable/logo_invertidoo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/merriweathersans_bold"
-            android:text="CyberMarket Norte"
-            android:textSize="16sp"
-            android:translationX="100dp" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:translationX="20dp"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/logo_invertidoo" />
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/inter_variable_font_opsz_wght"
-            android:text="Sep. 18 - 5:30 PM"
-            android:textColor="#969696"
-            android:textSize="10sp"
-            android:translationX="100dp" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_bold"
+                android:text="CyberMarket Oriente"
+                android:textSize="14sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/inter_variable_font_opsz_wght"
-            android:text="COP80,000 - 9 Productos"
-            android:textColor="#969696"
-            android:textSize="10sp"
-            android:translationX="100dp" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="Sept. 18 - 5:30 PM"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="138dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#DC6B6B"
-            android:text="Volver a comprar"
-            android:textSize="10sp"
-            android:translationX="255dp"
-            android:translationY="-50dp" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="COP50,000 - 4 Productos"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="138dp"
+                android:layout_height="36dp"
+                android:backgroundTint="#DC6B6B"
+                android:text="Volver a comprar"
+                android:textSize="10sp"
+                android:translationX="255dp"
+                android:translationY="-74dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:translationX="20dp"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/logo_invertidoo" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_bold"
+                android:text="CyberMarket Sur"
+                android:textSize="16sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="Oct. 02 - 1:20 PM"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="COP3,000 - 1 Producto"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="138dp"
+                android:layout_height="36dp"
+                android:backgroundTint="#DC6B6B"
+                android:text="Volver a comprar"
+                android:textSize="10sp"
+                android:translationX="255dp"
+                android:translationY="-74dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:translationX="20dp"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/logo_invertidoo" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_bold"
+                android:text="CyberMarket Norte"
+                android:textSize="16sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="Sep. 18 - 5:30 PM"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="COP80,000 - 9 Productos"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="138dp"
+                android:layout_height="36dp"
+                android:backgroundTint="#DC6B6B"
+                android:text="Volver a comprar"
+                android:textSize="10sp"
+                android:translationX="255dp"
+                android:translationY="-74dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:translationX="20dp"
+                android:translationY="30dp"
+                app:srcCompat="@drawable/logo_invertidoo" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_bold"
+                android:text="CyberMarket Centro"
+                android:textSize="14sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="Dic. 22 - 4:30 PM"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_variable_font_opsz_wght"
+                android:text="COP340,000 - 20 Productos"
+                android:textColor="#969696"
+                android:textSize="10sp"
+                android:translationX="100dp"
+                android:translationY="-30dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="138dp"
+                android:layout_height="36dp"
+                android:backgroundTint="#DC6B6B"
+                android:text="Volver a comprar"
+                android:textSize="10sp"
+                android:translationX="255dp"
+                android:translationY="-74dp" />
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

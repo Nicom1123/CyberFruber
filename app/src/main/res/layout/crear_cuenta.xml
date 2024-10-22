@@ -2,41 +2,71 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DE6B6B">
+    android:background="#DE6B6B"
+    android:backgroundTint="#DE6B6B"
+    android:foregroundTint="#E4A3A3"
+    tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="273dp"
-        android:layout_height="341dp"
-        app:srcCompat="@drawable/journal_woman_16_1"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="154dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="105dp"
-        android:layout_height="117dp"
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="75dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="4dp" />
 
     <LinearLayout
-        android:layout_width="414dp"
-        android:layout_height="228dp"
+        android:layout_width="411dp"
+        android:layout_height="639dp"
+        android:background="#FBFAFA"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="503dp">
+        tools:layout_editor_absoluteY="92dp">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editTextText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="95"
+            android:ems="10"
+            android:inputType="text"
+            android:text="CREAR CUENTA"
+            android:translationY="@dimen/material_emphasis_disabled"
+            android:translationZ="@dimen/material_emphasis_disabled" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextText8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:rotationX="15"
-            android:singleLine="false"
-            android:text="BIENVENIDO" />
+            android:text="NOMBRE" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu nombre completo" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="CORREO" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -44,27 +74,72 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="Correo electrónico" />
+            tools:text="ingresa tu correo electronico" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <EditText
-            android:id="@+id/editTextNumberPassword"
+            android:id="@+id/editTextText12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="numberPassword"
-            android:text="Contraseña" />
+            android:inputType="text"
+            android:text="NÙMERO" />
 
-        <Button
-            android:id="@+id/button5"
+        <EditText
+            android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingresar" />
+            android:ems="10"
+            android:inputType="phone"
+            tools:text="Ingresa tu nùmero telèfonico" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView14"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="Olvidé mi contraseña" />
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextText13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="CONTRASEÑA" />
+
+        <EditText
+            android:id="@+id/editTextPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            tools:text="Ingrese una contraseña(Minimo 8 caracteres) " />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1B1A1A"
+            android:backgroundTint="#0D0C0C"
+            android:drawableTint="#0D0C0C"
+            android:foregroundTint="@color/black"
+            android:shadowColor="#161515"
+            android:text="REGISTRARME"
+            android:textColor="#F3F1F6"
+            android:textColorHighlight="#141414"
+            android:textColorHint="#1D1D1D"
+            android:textColorLink="#141313"
+            app:iconTint="#141313"
+            app:rippleColor="#141414"
+            app:strokeColor="#1B1B1B" />
 
     </LinearLayout>
 

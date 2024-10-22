@@ -19,7 +19,9 @@
     <string name="correo">Correo Electronico</string>
     <string name="codigo_verificacion">Enviar Codigo de Verificacion</string>
     <string name="Ajo">Libra de Ajo</string>
-
+    <string name="Texto_random">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus nibh risus, sed congue massa volutpat vel. Vivamus sed viverra dolor, non lobortis sapien. Etiam ultricies faucibus semper. </string>
+    <string name="Descripcion_producto">Descripcion del Producto</string>
+    <string name="Añadir">Añadir al carrito</string>
 
 
     <string name="name">Escriba su pedido en CyberFruver</string>

@@ -10,7 +10,7 @@
         android:id="@+id/Volver"
         android:layout_width="71dp"
         android:layout_height="41dp"
-        android:backgroundTint="#DE6B6B"
+        android:backgroundTint="#FFFFFF"
         android:text="<--"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,19 +32,171 @@
         tools:layout_editor_absoluteY="113dp" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="490dp"
+        android:layout_width="413dp"
+        android:layout_height="56dp"
         android:background="#418D12"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="240dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="310dp">
 
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
+            android:gravity="center"
             android:text="@string/Ajo"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="41dp"
+        android:layout_height="372dp"
+        android:background="#418D12"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="36dp"
+        android:layout_height="368dp"
+        android:background="#418D12"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="375dp"
+        tools:layout_editor_absoluteY="364dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:background="#FFFFFF"
+        android:text="-"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:background="#FFFFFF"
+        android:text="+"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="0"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="167dp"
+        android:background="#418D12"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="459dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:gravity="center|left"
+            android:text="@string/Descripcion_producto"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Texto_random"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="227dp"
+        android:layout_height="105dp"
+        android:background="#418D12"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="626dp">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/Añadir"
             android:textColor="#FFFFFF" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="111dp"
+        android:layout_height="105dp"
+        android:background="#418D12"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="626dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="$7.500"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="82dp"
+        android:layout_height="27dp"
+        android:background="#418D12"
+        android:text="10 minutos"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <LinearLayout
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:background="#418D12"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="366dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="104dp"
+        android:layout_height="94dp"
+        android:background="#418D12"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="366dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:background="#418D12"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="366dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="84dp"
+        android:layout_height="28dp"
+        android:background="#418D12"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="392dp"></LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 

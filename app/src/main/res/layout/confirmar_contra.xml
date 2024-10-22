@@ -25,4 +25,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#DE6B6B"
+        android:text="<--"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

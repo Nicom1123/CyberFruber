@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrando"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 productos"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <LinearLayout
+        android:layout_width="417dp"
+        android:layout_height="164dp"
+        android:background="#632308"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Volver"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#632308"
+                android:text="<--"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Alcohol"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Buscar en CyberFruber" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="142dp"
+        android:layout_height="29dp"
+        android:text="Alcohol"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="142dp"
+        android:layout_height="29dp"
+        android:text="Alcohol"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="146dp"
+        android:layout_height="21dp"
+        android:text="Alcohol"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="146dp"
+        android:layout_height="21dp"
+        android:text="Alcohol"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:text="$10.000"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:text="$10.000"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:text="$10.000"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:text="$10.000"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="144dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/_617515_611185878992832_560826296818742465_o"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="144dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/_617515_611185878992832_560826296818742465_o"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="144dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/_617515_611185878992832_560826296818742465_o"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="144dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/_617515_611185878992832_560826296818742465_o"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

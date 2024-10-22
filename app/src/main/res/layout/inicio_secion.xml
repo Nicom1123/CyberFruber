@@ -9,79 +9,70 @@
     tools:context="com.example.cyberfruve.MainActivity">
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="269dp"
-        android:background="#EFEBEB"
+        android:layout_width="413dp"
+        android:layout_height="314dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="412dp">
-
-        <EditText
-            android:id="@+id/text_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Compra tu mercado sin ir a la esquina." />
-
-        <MultiAutoCompleteTextView
-            android:id="@+id/multiAutoCompleteTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Miles de productos y precios a la palma de tu mano, todo sin tener que salir de casa." />
-
-        <Button
-            android:id="@+id/but_inicio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#EDE9E9"
-            android:foregroundTint="#1A1919"
-            android:shadowColor="#0F0D0D"
-            android:text="Crear Cuenta"
-            android:textAllCaps="false"
-            android:textColor="#0F0E0E"
-            android:textColorHighlight="#090909"
-            android:textColorHint="#090909"
-            android:textColorLink="#050505"
-            app:rippleColor="#100F0F"
-            app:strokeColor="#161515" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="422dp">
 
         <LinearLayout
             android:id="@+id/15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal" />
 
-            <Button
-                android:id="@+id/but_crear"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#0F0C0C"
-                android:text="Iniciar Seción" />
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweathersans_bold"
+            android:gravity="center"
+            android:text="Compra tu mercado sin ir a la esquina."
+            android:textColor="#1B1919"
+            android:textSize="24sp"
+            android:translationY="-20dp" />
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Miles de productos y precios a la palma de tu mano, todo sin tener que salir de casa."
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:translationY="-16dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:fontFamily="@font/merriweathersans_bold"
+            android:text="Iniciar sesion"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fadeScrollbars="true"
+            android:fontFamily="@font/merriweathersans_bold"
+            android:text="Crear cuenta"
+            android:textColor="#000000"
+            android:translationY="10dp" />
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="339dp"
-        android:layout_height="58dp"
-        android:background="@color/white"
-        android:backgroundTint="#DE6B6B"
-        android:gravity="center"
-        android:text="CyberFruver"
-        android:textAllCaps="true"
-        android:textColor="#F4F4F8"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="45dp" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="129dp"
-        android:layout_height="106dp"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
@@ -91,4 +82,15 @@
         app:srcCompat="@drawable/journal_courier_delivery_of_mobile_order_1"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweathersans_bold"
+        android:text="CyberFruver"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="39dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

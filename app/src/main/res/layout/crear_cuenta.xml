@@ -22,106 +22,90 @@
         android:layout_width="411dp"
         android:layout_height="639dp"
         android:background="#FBFAFA"
+        android:gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteY="92dp">
 
-        <EditText
-            android:id="@+id/editTextText6"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alpha="95"
-            android:ems="10"
-            android:inputType="text"
+            android:autoSizeTextType="none"
+            android:shadowColor="#0D0C0C"
             android:text="CREAR CUENTA"
-            android:translationY="@dimen/material_emphasis_disabled"
-            android:translationZ="@dimen/material_emphasis_disabled" />
+            android:textColor="#050505"
+            android:textSize="24sp"
+            android:translationY="-170dp" />
 
         <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/textView33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="NOMBRE" />
+            android:text="NOMBRE"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            android:translationY="-140dp" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingresa tu nombre completo" />
+            android:text="Ingresa tu nombre completo"
+            android:textColor="#737171"
+            android:textSize="16sp"
+            android:translationY="-130dp" />
 
         <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/editTextText9"
+            android:id="@+id/textView34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="CORREO" />
-
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            tools:text="ingresa tu correo electronico" />
+            android:text="CORREO"
+            android:textColor="#0D0D0D"
+            android:textSize="20sp"
+            android:translationY="-100dp" />
 
         <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/editTextText12"
+            android:id="@+id/textView35"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="NÙMERO" />
-
-        <EditText
-            android:id="@+id/editTextPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="phone"
-            tools:text="Ingresa tu nùmero telèfonico" />
+            android:text="ingresa tu correo electronico"
+            android:textColor="#737171"
+            android:textSize="16sp"
+            android:translationY="-90dp" />
 
         <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/editTextText13"
+            android:id="@+id/textView37"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="CONTRASEÑA" />
-
-        <EditText
-            android:id="@+id/editTextPhone2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="phone"
-            tools:text="Ingrese una contraseña(Minimo 8 caracteres) " />
+            android:text="NÚMERO"
+            android:textColor="#0F0E0E"
+            android:textSize="20sp"
+            android:translationY="-60dp" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textView38"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu nùmero telèfonico"
+            android:textSize="16sp"
+            android:translationY="-50dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTRASEÑA"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:translationY="-20dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese una contraseña(Minimo 8 caracteres) "
+            android:textSize="16sp"
+            android:translationY="-10dp" />
 
         <Button
             android:id="@+id/button"
@@ -137,10 +121,20 @@
             android:textColorHighlight="#141414"
             android:textColorHint="#1D1D1D"
             android:textColorLink="#141313"
+            android:translationY="90dp"
             app:iconTint="#141313"
             app:rippleColor="#141414"
             app:strokeColor="#1B1B1B" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteY="12dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
